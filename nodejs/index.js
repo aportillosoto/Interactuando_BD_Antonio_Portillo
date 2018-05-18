@@ -10,8 +10,7 @@ mongoose.connect('mongodb://localhost:27017/AgendaDB', {useMongoClient: true}, (
 	if (err) return console.log('Error en la conexión con la base de datos '+err)
 	
 	console.log('Conexión establecida con la base de datos **AgendaDB** en el puerto:27017')
-
-	//const Server = http.createServer(app)
+	
 	app.listen(port, function() {
   		console.log('Servidor corriendo en http://localhost:'+port)
 	})

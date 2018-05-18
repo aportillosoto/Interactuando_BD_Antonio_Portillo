@@ -1,3 +1,5 @@
+Para ambas versiones
+------------------------
 Usuario = user1@prueba.com
 Pasw = 123
 
